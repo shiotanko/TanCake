@@ -1,0 +1,11 @@
+@import'variabre.scss';
+
+body{
+    width:100%;
+    background-color:$base_color;
+    color:$font_color;  
+    a{
+        text-decoration: none;  
+        color:$font_color;
+    }
+}
