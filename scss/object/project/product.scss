@@ -1,0 +1,54 @@
+body{
+    main{
+        #product{
+            // 商品メニュー　タイトル
+            .title_wrap{
+                margin:0 14%;
+                width:72%;
+                .product_menu{
+                    display: flex;
+                    width:840px;
+                    .title_wrap2{
+                        .title,.title_sub{
+                            margin:0 30px 0 0;
+                        }
+                    }
+                    .season{
+                        margin-left:30px;
+                    }
+                    .menu{
+                        .menu_title{
+                            font-size:25px;
+                            margin: 15px 60px 0 0;
+                            text-align: center;
+                            width:140px;
+                        }
+                        .menu_sub{
+                            width:130px;
+                            text-align: center;
+                        }
+                    }    
+                }
+            }
+            // 商品詳細と写真
+            .product_plate{
+                display: flex;
+                justify-content: space-between;
+                margin:0 14%;
+                .product_wrap{
+                    img{
+                        margin:50px 0 ;
+                    }
+                    .product_text{
+                        text-align: center;
+                        .name{
+                            font-size:20px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

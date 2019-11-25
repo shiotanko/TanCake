@@ -1,0 +1,24 @@
+body{
+    main{
+        
+        .title_wrap{
+            // display: flex;
+            // flex-direction: column;
+            
+            .title{
+                font-size:35px;
+                font-family: 'Noto Sans TC', sans-serif;
+                margin-left:200px;
+                width:130px;
+
+            
+            }
+            .title_sub{
+                font-size:20px;
+                margin:0 0 0 200px; 
+                width:150px;
+            }          
+        }
+        
+    }
+}

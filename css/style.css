@@ -81,3 +81,88 @@ body {
   body a {
     text-decoration: none;
     color: #222103; }
+
+body header .logo {
+  display: block;
+  width: 20%;
+  margin: 1% auto; }
+
+body header .top_menu_wrap .top_menu_inner {
+  display: flex;
+  justify-content: center; }
+  body header .top_menu_wrap .top_menu_inner .top_menu_item {
+    margin: 10px 5px;
+    font-size: 20px;
+    background-color: #360f06;
+    width: 170px;
+    height: 75px;
+    opacity: 0.8; }
+    body header .top_menu_wrap .top_menu_inner .top_menu_item a {
+      display: block;
+      color: #ecebd7;
+      text-align: center;
+      line-height: 75px;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 25px; }
+  body header .top_menu_wrap .top_menu_inner .top_menu_item:hover {
+    background-color: #cfa972; }
+    body header .top_menu_wrap .top_menu_inner .top_menu_item:hover a {
+      color: #222103; }
+
+body header .top_img {
+  width: 100%;
+  margin: 5px 0 40px 0; }
+
+body main .title_wrap .title {
+  font-size: 35px;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-left: 200px;
+  width: 130px; }
+
+body main .title_wrap .title_sub {
+  font-size: 20px;
+  margin: 0 0 0 200px;
+  width: 150px; }
+
+body main #product .title_wrap {
+  margin: 0 14%;
+  width: 72%; }
+  body main #product .title_wrap .product_menu {
+    display: flex;
+    width: 840px; }
+    body main #product .title_wrap .product_menu .title_wrap2 .title, body main #product .title_wrap .product_menu .title_wrap2 .title_sub {
+      margin: 0 30px 0 0; }
+    body main #product .title_wrap .product_menu .season {
+      margin-left: 30px; }
+    body main #product .title_wrap .product_menu .menu .menu_title {
+      font-size: 25px;
+      margin: 15px 60px 0 0;
+      text-align: center;
+      width: 140px; }
+    body main #product .title_wrap .product_menu .menu .menu_sub {
+      width: 130px;
+      text-align: center; }
+
+body main #product .product_plate {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 14%; }
+  body main #product .product_plate .product_wrap img {
+    margin: 50px 0; }
+  body main #product .product_plate .product_wrap .product_text {
+    text-align: center; }
+    body main #product .product_plate .product_wrap .product_text .name {
+      font-size: 20px;
+      font-weight: bold; }
+
+body main #wheat {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 14%; }
+  body main #wheat .wheat_comment .wheat_title {
+    font-size: 40px; }
+    body main #wheat .wheat_comment .wheat_title .wheat_title_100 {
+      font-size: 60px; }
+  body main #wheat .wheat_comment .wheat_text {
+    font-size: 20px;
+    margin-top: 20px; }

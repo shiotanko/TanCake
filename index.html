@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Sans+TC&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="img/TanCake@2x.png" alt="logo">
+        <img src="img/TanCake@2x.png" alt="logo" class="logo">
         <div class="top_menu_wrap">
             <ul class="top_menu_inner">
                 <li class="top_menu_item">
@@ -28,28 +30,41 @@
                 </li>
             </ul>
         </div>
-        <img src="img/top1.jpg" alt="top_img">
+        <img src="img/top1.png" alt="top_img" class="top_img">
     </header>
     <main>
         <div id="product">
-            <div class="title">Menu</div>
-            <div class="title_sub">めにゅー</div>
 
-            <div class="menu">
-                <div class="menu_title">Season</div>
-                <div class="menu_sub">期間限定</div>
-            </div>
-            <div class="menu">
-                <div class="menu_title">Strawberry</div>
-                <div class="menu_sub">いちご</div>
-            </div>
-            <div class="menu">
-                <div class="menu_title">Chocolate</div>
-                <div class="menu_sub">ちょこれーと</div>
-            </div>
-            <div class="menu">
-                <div class="menu_title">Other</div>
-                <div class="menu_sub">その他</div>
+            <div class="title_wrap">
+
+                <div class="product_menu">
+
+                    <div class="title_wrap2">
+                        <p class="title">Menu</p>
+                        <p class="title_sub">＃めにゅー</p>
+                    </div>   
+
+                    <div class="menu season">
+                        <p class="menu_title">Season</p>
+                        <p class="menu_sub">期間限定</p>
+                    </div>
+
+                    <div class="menu">
+                        <p class="menu_title">Strawberry</p>
+                        <p class="menu_sub">いちご</p>
+                    </div>
+
+                    <div class="menu">
+                        <p class="menu_title">Chocolate</p>
+                        <p class="menu_sub">ちょこれーと</p>
+                    </div>
+
+                    <div class="menu">
+                        <p class="menu_title">Other</p>
+                        <p class="menu_sub">その他</p>
+                    </div>
+
+                </div>
             </div>
 
             <div class="product_plate">
@@ -62,7 +77,7 @@
                     </div>
                 </div>
                 <div class="product_wrap">
-                    <img src="img/s-orange@2x.png" alt="オレンジ">
+                    <img src="img/s-orange.png" alt="オレンジ">
                     <div class="product_text">
                         <p class="name">Orange</p>
                         <p class="price_period">2019年11月30日まで<br>
@@ -81,26 +96,30 @@
             </div>    
         </div>
         <div id="wheat">
-            <p class="wheat_title">
-                TanCakeでは<br>
-                国産小麦を<span class="wheat_title_100">100%</span><br>
-                使用しています
-            </p>
-            <p class="weat_text">
-                素材からこだわり、真心込めて<br>
-                カップケーキを作っています。<br>
-                どこか懐かしい様な、<br>
-                暖かい気分になれる、、<br>
-                そんなスイーツを目指しています。
-            </p>
+            <div class="wheat_comment">
+                <p class="wheat_title">
+                    TanCakeでは<br>
+                    国産小麦を<span class="wheat_title_100">100%</span><br>
+                    使用しています
+                </p>
+                <p class="wheat_text">
+                    素材からこだわり、真心込めて<br>
+                    カップケーキを作っています。<br>
+                    どこか懐かしい様な、<br>
+                    暖かい気分になれる、、<br>
+                    そんなスイーツを目指しています。
+                </p>
+            </div>
             <img src="img/komugi1 .png" alt="wheat_img">
         </div>
         <div id="shop">
             <img src="img/shopimg.png" alt="shop">
         </div>
         <div id="about">
-            <div class="title">About</div>
-            <div class="title_sub">TanCakeとは</div>
+            <div class="title_wrap">
+                <div class="title">About</div>
+                <div class="title_sub">＃TanCakeとは</div>
+            </div>    
 
             <div class="aboue_text">
                 <span class=about_text_t>T</span>anCakeは
@@ -118,9 +137,11 @@
         </div>
 
         <div id="map">
-            <div class="title">Map</div>
-            <div class="title_sub">お店の場所</div>
-            
+            <div class="title_wrap">
+                <div class="title">Map</div>
+                <div class="title_sub">＃お店の場所</div>
+            </div>
+
             <p class="map_text">
                 住所<br>
                 〒XXX-XXXX<br>
@@ -131,8 +152,10 @@
         </div>
 
         <div id="news">
-            <div class="title"></div>
-            <div class="title_sub"></div>
+            <div class="title_wrap">
+                <div class="title">News</div>
+                <div class="title_sub">＃お知らせ</div>
+            </div>
 
             <div class="news_plate">
                 <div class="news_text">

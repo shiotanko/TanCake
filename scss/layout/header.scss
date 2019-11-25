@@ -1,0 +1,50 @@
+// @import'../fundation/variabre.scss';
+
+body{
+    header{
+        .logo{
+            display:block;
+            width:20%;
+            margin:1% auto;
+        }
+
+        .top_menu_wrap{
+
+            .top_menu_inner{
+                display: flex;
+                justify-content: center;
+
+                .top_menu_item{
+                    margin:10px 5px;
+                    font-size:20px;
+                    background-color:$sub_color;
+                    width:170px;
+                    height:75px;
+                    opacity: 0.8;
+
+                    a{
+                        display: block;
+                        color:$base_color;
+                        text-align: center;
+                        line-height:75px;
+                        font-family: 'Noto Sans TC', sans-serif;
+                        font-size:25px;
+                    }
+                }
+
+                .top_menu_item:hover{
+                    background-color:$main_color;
+                    a{
+                        color:$font_color;
+                    }
+                    
+                }
+            }
+        }
+
+        .top_img{
+            width:100%;
+            margin:5px 0 40px 0;
+        }
+    }
+}
